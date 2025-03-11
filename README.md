@@ -12,4 +12,4 @@ Interesting technical notes
 The solver.py shows how to import the function and how to run execute the code on a command-line interface like Anaconda Prompt. Please note the tsp_python.pyx needs to build first before being used. This will result in a file called tsp_python.so. In addition, the compilation instructions are provided in setup.py file which will be used in the build process. For convience I provided the tsp_python.so file so that no building is required.     
 
 ### Data used
-tsp_51_1 contains information on the node points that need to be visited in TSP. For more testing data I recommend access the Coursera course on Discrete Optimisation and downloading the relevant files there.   
+tsp_51_1 contains information on the node points that need to be visited in TSP. For more testing data I recommend access the Coursera course on Discrete Optimisation and downloading the relevant files there. The first line list the number of nodes that need to be visited. All the other lines contain point at which each node is located.   
